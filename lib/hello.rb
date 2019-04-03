@@ -3,8 +3,8 @@ def hello_t array
 
 
   else
-  puts "Hey! No block was given!"
-end
+    puts "Hey! No block was given!"
+  end
 end
 
 # call your method here!
