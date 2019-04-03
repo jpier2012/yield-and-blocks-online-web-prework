@@ -1,7 +1,10 @@
 def hello_t array
-  puts "Hey! No block was given!" if block_given? == false
+  if block_given?
 
-  array.each {|element| }
+  
+  else
+  puts "Hey! No block was given!"
+end
 end
 
 # call your method here!
