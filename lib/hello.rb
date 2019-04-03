@@ -1,11 +1,7 @@
 def hello_t array
-  array.each {|element| }
-  i = 0
+  puts "Hey! No block was given!" if block_given? == false
 
-  while i < array.length
-    yield array[i]
-    i += 1
-  end
+  array.each {|element| }
 end
 
 # call your method here!
